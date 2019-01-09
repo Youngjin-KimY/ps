@@ -7,3 +7,10 @@
 		1) matched, but remain paranthesis
 		2) size of string is 0 -> true
 		3) size of string is 1 -> false
+		
+
+### 2019.01.08
+1. LeetCode 654 Maximum Binary Tree Problem
+	intuition
+	- find index of maximum value
+	- divide list as two part, criterion is maximum value
