@@ -24,8 +24,8 @@ repeatly some vertices decreases in degree, and if in-degree is 0, than go to st
 
 - how to use queue in the python
 
-'''<pre>
+<pre>'''
 from collections import deque
 q = deque([])
 then, activate q.leftpop()
-<code>'''
+'''<code>
