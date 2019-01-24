@@ -16,7 +16,7 @@
 	- divide list as two part, criterion is maximum value
 	
 
-###
+### 2019.01.24 
 boj_2252: topological ordering, i don't understand why is this prob in the PQ..
 first, checking in-degree of every vertices.
 second, there are some of 0 in-degree vertices, push into stack. and simultaneously the vertices decreses in-degree from vertices which is going to push into the stack.
