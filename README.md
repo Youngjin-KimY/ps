@@ -29,6 +29,11 @@ repeatly some vertices decreases in degree, and if in-degree is 0, than go to st
 	q = deque([])
 	then, activate q.leftpop()
 </pre></code>
+### 2019.01.31
+1. boj11726
+DP : deployment of card
+
+
 
 ### 2019.01.30
 1. I didn't care about using "in" with list, I mean that I wanted to check whether some variable is in the list or not,
