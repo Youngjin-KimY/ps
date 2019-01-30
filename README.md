@@ -24,11 +24,11 @@ repeatly some vertices decreases in degree, and if in-degree is 0, than go to st
 
 - how to use queue in the python
 
-<pre>
+<pre><code>
 	from collections import deque
 	q = deque([])
 	then, activate q.leftpop()
-<code>
+</pre></code>
 
 ### 2019.01.30
 1. I didn't care about using "in" with list, I mean that I wanted to check whether some variable is in the list or not,
