@@ -63,3 +63,23 @@ setB=(3,4,5)
 setA.intersaction(setB)
 >> {3}
 </pre></code>
+
+### 2019.01.31
+1. floyd warshall algorithm
+time complexity : O(n^3)
+space complexity : O(n^2)
+
+funny thing is that algorithm is implemented by 3 inner for loop, and most outer loop shows mid point road.
+
+by python3 
+<pre><code>
+for k in range(1,v+1):
+   for i in range(1,v+1):
+      for j in range(1,v+1):
+         if adj[i][j] > adj[i][k]+adj[k][k]:
+	    adj[i][j] = adj[i][k]+adj[k][k]
+
+</pre></code>
+
+
+
