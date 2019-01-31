@@ -65,9 +65,9 @@ setA.intersaction(setB)
 </pre></code>
 
 ### 2019.01.31
-1. floyd warshall algorithm : boj11404
-time complexity : O(n<sup>3</sup>)
-space complexity : O(n<sup>2</sup>)
+1. floyd warshall algorithm : boj11404<br>
+time complexity : O(n<sup>3</sup>)<br>
+space complexity : O(n<sup>2</sup>)<br>
 
 funny thing is that algorithm is implemented by 3 inner for loop, and most outer loop shows mid point road.
 
