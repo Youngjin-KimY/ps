@@ -1,6 +1,43 @@
 # Problem Solving
 ## Purpose of this document is describing new algorithm I study and checking my fault, when I meet new problem
 
+### 2019.02.28
+1. gcd and lcm
+<pre><code>
+class Solution:
+    def __init__(self):
+        self.__t = int(input())
+        self.__sol()
+
+    def __sol(self):
+        for i in range(0,self.__t):
+            a,b = map(int,input().split())
+            print(self.__lcm(a,b))
+
+    def __gcd(self,a,b):
+        if a>b:
+            tmp = a
+            a = b
+            b = tmp
+
+        while a != 0:
+            n = b%a
+            b = a
+            a = n
+
+        return b
+
+    def __lcm(self,a,b):
+
+        return int(a*b/self.__gcd(a,b))
+	
+if __name__ == "__main__":
+    s = Solution()
+</pre></code>
+
+Above code is that gcd and lcm, using euclidean method to solve this sort of problems.
+
+
 ### 2019.01.06 
 1. matching paranthesis problem
 	* edge cases 
