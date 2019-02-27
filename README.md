@@ -19,7 +19,8 @@ class Solution:
             tmp = a
             a = b
             b = tmp
-
+	
+	# a < b
         while a != 0:
             n = b%a
             b = a
